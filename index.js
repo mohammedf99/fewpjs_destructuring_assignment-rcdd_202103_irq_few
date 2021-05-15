@@ -43,7 +43,11 @@ const [ blackAndWhite, , black, pink, ] = farmAnimals.split(" ");
 const [red, orange, yellow, green, blue, indigo, violet] = colors;
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
+<<<<<<< HEAD
 const [r, o, y, g, b, i, v] = colors;
+=======
+const [r, o, y, g, b, , v] = colors;
+>>>>>>> 6ed7133a719553d422af5d0b0b2a41a3b0b69d57
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
 
 const [, , , , , indg, ] = colors;
